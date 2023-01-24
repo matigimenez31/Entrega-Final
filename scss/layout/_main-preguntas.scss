@@ -1,0 +1,25 @@
+#main-preguntas{
+    .banner-preguntas{
+        width: 100%;
+        margin: 0 auto;
+    }    
+        img{
+            width: 100%;
+            min-width: 100%;
+        }
+    .texto-preguntas{
+        h2{
+            text-align: center;
+        }
+    }
+    details{
+        overflow: hidden;
+        text-align: justify;
+        background-color: #bbbbbb;
+        padding: .5rem;
+        border-radius: 6px;
+        margin: 0.7rem;
+        transition: all .2s ease-in-out;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,42 @@
+#main-mantenimiento{
+    .banner-mantenimiento{
+        width: 100%;
+        margin: 0 auto;
+        img{
+            width: 100%;
+            min-width: 100%;
+        }
+    }
+    #mantenimiento{
+        display: flex;
+        padding: 30px;
+        img{
+            width: 100%;
+            max-width: 1900px;
+            padding: 30px;
+        }
+        li{
+            list-style: none;
+        }
+        .mantenimiento-pc{
+            h3{
+                font-size: 25px;
+            }
+        }
+        .mantenimiento-pc{
+            p{
+                font-size: 20px;
+            }
+        }    
+        .planes{
+            h3{
+                font-size: 25px;
+            }
+        }
+        .planes{
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+}

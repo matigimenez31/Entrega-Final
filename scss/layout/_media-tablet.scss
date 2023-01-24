@@ -1,0 +1,72 @@
+@media(max-width: 768px){
+    .mostrar-menu,
+    .esconder-menu{
+        display: block;
+    }
+
+    .navBar{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #39454f;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 100;
+        transition: 0.8s;
+        a{
+            display: block;
+            padding: 20px;
+        }
+    }
+
+
+    .esconder-menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+
+    #check:checked ~ .navBar{
+        right: 0;
+    }
+
+    #empresa{
+        flex-direction: column;
+        img{
+            margin-top: 20px;
+        }
+    }
+
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+
+
+    #servicios{
+        flex-direction: column;
+        img{
+            margin-top: 20px;
+        }
+}
+    #mantenimiento{
+        flex-direction: column;
+    }
+
+    .datos-form{
+        flex-direction: column;
+    }
+
+    #main-preguntas{
+        flex-direction: column;
+    }
+    
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+}
